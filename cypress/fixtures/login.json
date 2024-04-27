@@ -1,0 +1,56 @@
+[
+    {
+        "name": "successful login",
+        "data": [
+           {
+            "email": "qamid@qamid.ru",
+            "password": "qamid"
+           }
+        ]
+    },
+    {
+        "name":"wrong login",
+        "data": [
+            {
+            "email": "admin@qamid.ru",
+            "password": "qamid"
+            }
+        ]
+    },
+    {
+        "name":"wrong password",
+        "data": [
+            {
+            "email": "qamid@qamid.ru",
+            "password": "1111"
+            }
+        ]
+    },
+    {
+        "name":"empty email",
+        "data": [
+            {
+            "email": " ",
+            "password": "qamid"
+            }
+        ]
+    },
+    {
+        "name":"empty password",
+        "data": [
+            {
+            "email": "qamid@qamid.ru",
+            "password": " "
+            }
+        ]
+    },
+    {
+        "name":"empty login and password",
+        "data": [
+            {
+            "email": " ",
+            "password": " "
+            }
+        ]
+    }    
+]

@@ -1,0 +1,12 @@
+{
+    "weekDays": ".page-nav__day",
+    "movie2": ".movie > :nth-child(2)",
+    "movieAdmin": "main > :nth-child(1)",
+    "timeSession2": "18:00",
+    "timeSessionAdmin": "13:00",
+    "seat": "",
+    "seatAdmin": ".buying-scheme__wrapper > :nth-child(1) > :nth-child(1)",
+    "buttonAcc": ".acceptin-button",
+    "expected": "Вы выбрали билеты:"
+}
+       
