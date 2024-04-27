@@ -1,6 +1,6 @@
 [
     {
-        "name": "1 test граничные значения",
+        "name": "Boundary value analysis ",
         "data": [
             {
                 "row": 1,
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "name": "2 test три в ряд",
+        "name": "buy several seats in a row",
         "data": [
             
             {
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "name": "3 test забронировать занятое место",
+        "name": "try to buy a seat that is occupied",
         "data": [
             {
                 "row": 9,

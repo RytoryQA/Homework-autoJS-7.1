@@ -5,7 +5,7 @@ describe('template spec', () => {
     cy.visit('/')
   })
 
-  it('make a reservation a movie ticket to the hall from the /admin', () => {
+  it('buy a seat where the hall and the movie in /admin', () => {
     cy.get(selects.weekDays).eq(6).click()
     cy.get(selects.movieAdmin).contains(selects.timeSessionAdmin).click()
     cy.get(selects.seatAdmin).click()
